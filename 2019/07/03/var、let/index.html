@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="var、let、const与JavaScript变量/常量的定义,">
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="虽然拼命学习的时候很狼狈，但你拿知识装逼的时候真的很帅">
-<meta name="keywords" content="前端开发">
+<meta name="description" content="早期的JavaScript中，声明变量只能使用var关键字定义变量，并没有定义常量的功能。通过var关键字定义的变量，其作用域只能函数级或是全局作用域，并没有块级作用域。ES6(ECMAScript 2015)对这一问题做了改善，增加了用于定义块级变量的let关键字和用于定义常量的const关键字。 var定义变量1.1 语法及说明1.2 使用及特点let定义块级变量2.1 语法及说明2.2 与v">
+<meta name="keywords" content="var、let、const与JavaScript变量&#x2F;常量的定义">
 <meta property="og:type" content="article">
-<meta property="og:title" content="about">
-<meta property="og:url" content="http://yuanxianfeng1995.github.io/blog/2019/05/31/1/index.html">
+<meta property="og:title" content="var、let、const与JavaScript变量&#x2F;常量的定义">
+<meta property="og:url" content="http://yuanxianfeng1995.github.io/blog/2019/07/03/var、let/index.html">
 <meta property="og:site_name" content="先锋的博客">
-<meta property="og:description" content="虽然拼命学习的时候很狼狈，但你拿知识装逼的时候真的很帅">
+<meta property="og:description" content="早期的JavaScript中，声明变量只能使用var关键字定义变量，并没有定义常量的功能。通过var关键字定义的变量，其作用域只能函数级或是全局作用域，并没有块级作用域。ES6(ECMAScript 2015)对这一问题做了改善，增加了用于定义块级变量的let关键字和用于定义常量的const关键字。 var定义变量1.1 语法及说明1.2 使用及特点let定义块级变量2.1 语法及说明2.2 与v">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-04T03:57:30.185Z">
+<meta property="og:updated_time" content="2019-07-03T03:51:16.212Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
-<meta name="twitter:description" content="虽然拼命学习的时候很狼狈，但你拿知识装逼的时候真的很帅">
+<meta name="twitter:title" content="var、let、const与JavaScript变量&#x2F;常量的定义">
+<meta name="twitter:description" content="早期的JavaScript中，声明变量只能使用var关键字定义变量，并没有定义常量的功能。通过var关键字定义的变量，其作用域只能函数级或是全局作用域，并没有块级作用域。ES6(ECMAScript 2015)对这一问题做了改善，增加了用于定义块级变量的let关键字和用于定义常量的const关键字。 var定义变量1.1 语法及说明1.2 使用及特点let定义块级变量2.1 语法及说明2.2 与v">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yuanxianfeng1995.github.io/blog/2019/05/31/1/">
+  <link rel="canonical" href="http://yuanxianfeng1995.github.io/blog/2019/07/03/var、let/">
 
 
 
 
 
-  <title>about | 先锋的博客</title>
+  <title>var、let、const与JavaScript变量/常量的定义 | 先锋的博客</title>
   
 
 
@@ -214,7 +214,7 @@
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-th   //分类"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-categories   //分类"></i> <br>
             
             分类
           </a>
@@ -258,12 +258,12 @@
   
   
 
-  <article class="post post-type-about" itemscope itemtype="http://schema.org/Article">
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
   
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yuanxianfeng1995.github.io/blog/2019/05/31/1/">
+    <link itemprop="mainEntityOfPage" href="http://yuanxianfeng1995.github.io/blog/2019/07/03/var、let/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="先锋">
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">about</h1>
+          <h1 class="post-title" itemprop="name headline">var、let、const与JavaScript变量/常量的定义</h1>
         
 
         <div class="post-meta">
@@ -292,8 +292,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-31T11:39:24+08:00">
-                2019-05-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-03T11:43:33+08:00">
+                2019-07-03
               </time>
             
 
@@ -303,6 +303,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -311,8 +333,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/05/31/1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/05/31/1/" itemprop="commentCount"></span>
+                <a href="/2019/07/03/var、let/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/07/03/var、let/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -320,7 +342,7 @@
 
           
           
-             <span id="/2019/05/31/1/" class="leancloud_visitors" data-flag-title="about">
+             <span id="/2019/07/03/var、let/" class="leancloud_visitors" data-flag-title="var、let、const与JavaScript变量/常量的定义">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -345,7 +367,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  1.3k
                 </span>
               
 
@@ -361,7 +383,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  4
                 </span>
               
             </div>
@@ -382,7 +404,49 @@
       
 
       
-        
+        <p>早期的JavaScript中，声明变量只能使用var关键字定义变量，并没有定义常量的功能。通过var关键字定义的变量，其作用域只能函数级或是全局作用域，并没有块级作用域。ES6(ECMAScript 2015)对这一问题做了改善，增加了用于定义块级变量的let关键字和用于定义常量的const关键字。</p>
+<h2 id="var定义变量"><a href="#var定义变量" class="headerlink" title="var定义变量"></a>var定义变量</h2><p>1.1 语法及说明<br>1.2 使用及特点<br>let定义块级变量<br>2.1 语法及说明<br>2.2 与var的异同<br>const定义常量</p>
+<ol>
+<li>var定义变量</li>
+<li>1 语法及说明<br>var关键字用于声明一个或多个变量，声明多个变量时使用逗号(,)分隔，声明变量的同时可以对其初始化。</li>
+</ol>
+<p>语法法结构如下：</p>
+<p>var varname1 [= value1 [, varname2 [, varname3 … [, varnameN]]]];<br>varname1…varnameN - 变更名。可以是任何合法的标识符。<br>value1…valueN - 初始化值。可选。可以是任何合法的表达式。<br>使用var声明变量时，声明的变量作用域是在当前位置的上下文件中：函数的内部（声明在函数内）或者全局（声明在函数外）。</p>
+<p>1.2 使用及特点<br>使用var定义的变量有以下特点：</p>
+<p>变量声明提升</p>
+<p>无论在代码的任何位置声明变量，执行引擎都会在任何代码执行之前处理。由于这个原因，所以在代码中的任意位置声明变量与在代码开头声明变量是等效的。</p>
+<p>这意味着我们可以在定义变量之前使用，这个行为叫做’hoisting’，也就是把所有的变量声明移动到函数或者全局代码的开头位置。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hoist = &apos;http://itbilu.com&apos;;</span><br><span class="line">var hoist;</span><br><span class="line"></span><br><span class="line">// 可以理解为：</span><br><span class="line">var hoist;</span><br><span class="line">hoist = &apos;http://itbilu.com&apos;;</span><br></pre></td></tr></table></figure>
+
+<p>注意：虽然变量声明提升让我们可以先使用再定义变量，但建议总是先定义再使用变量，这样可以让变量的作用域更加清晰。</p>
+<p>声明与未声名变量的区别</p>
+<p>未声明的变量会被添加一个全局作用域，而声明变量作用域是当前上下文：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">function x() &#123;</span><br><span class="line">  y = 1;   // 在严格模式下会抛出ReferenceError</span><br><span class="line">  var z = 2;</span><br><span class="line">&#125;</span><br><span class="line">x();</span><br><span class="line"></span><br><span class="line">console.log(y); // &apos;1&apos;</span><br><span class="line">console.log(z); // ReferenceError: z is not defined</span><br></pre></td></tr></table></figure>
+
+<p>声明变量在任何代码执行前创建，而未声明的变量只有在执行赋值操作的时候才会被创建：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">console.log(a);  // 抛出ReferenceError。</span><br><span class="line">console.log(&apos;still going...&apos;); // 不会执行</span><br><span class="line">var a;</span><br><span class="line">console.log(a);  // &quot;undefined&quot;或&quot;&quot;（不同执行引擎的实现不同）</span><br><span class="line">console.log(&apos;still going...&apos;); // &apos;still going...&apos;</span><br></pre></td></tr></table></figure>
+
+<p>声明变量是不可配置属性，而未声明变量是可配置的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">var a = 1;</span><br><span class="line">b = 2;</span><br><span class="line"></span><br><span class="line">delete this.a; // 在严格模式下抛出TypeError，非严格模式下执行失败且无任何提示</span><br><span class="line">delete this.b;</span><br><span class="line"></span><br><span class="line">console.log(a, b); // 抛出ReferenceError，&apos;b&apos;属性已经被删除</span><br></pre></td></tr></table></figure>
+
+<p>以上三点是声明与未声明变量区别，但错误表现是不可预知的。而在严格模型下，使用未赋值的变量会抛出异常，推荐总是先定义(声明)再使用变量。</p>
+<p>全局作用域与函数作用域</p>
+<p>函数内部声明的变量只能在函数内部使用，函数外部声明的变量可以全局使用：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">var x = 0;</span><br><span class="line"></span><br><span class="line">function f()&#123;</span><br><span class="line">  var x = 1, y = 1;</span><br><span class="line">&#125;</span><br><span class="line">f();</span><br><span class="line"></span><br><span class="line">console.log(x); // 0</span><br><span class="line">console.log(y); // ReferenceError: y is not defined</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-let定义块级变量"><a href="#2-let定义块级变量" class="headerlink" title="2. let定义块级变量"></a>2. let定义块级变量</h2><p>2.1 语法及说明<br>let用于定义块级变量，其语法结构类似于var：</p>
+<p>let varname1 [= value1 [, varname2 [, varname3 … [, varnameN]]]];<br>var声明的变量是函数级的或者是全局的，而let用于声明块级作用域。</p>
+<p>如，使用let声明一个块级变量：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">if (x &gt; y) &#123;</span><br><span class="line">  let gamma = 12.7 + y;</span><br><span class="line">  i = gamma * x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>2.2 与var的异同<br>let与var的区别主要体现在作用域上，当在子代码块中使用中其声明的是块级变量，而var声明的是全局变量：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">var a = 5;</span><br><span class="line">var b = 10;</span><br><span class="line"></span><br><span class="line">if (a === 5) &#123;</span><br><span class="line">  let a = 4; // if 块级作用域</span><br><span class="line">  var b = 1; // 函数级作用域</span><br><span class="line"></span><br><span class="line">  console.log(a);  // 4</span><br><span class="line">  console.log(b);  // 1</span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line">console.log(a); // 5</span><br><span class="line">console.log(b); // 1</span><br><span class="line">在函数或程序顶层使用时，let与var没有什么区别：</span><br><span class="line"></span><br><span class="line">var x = &apos;global&apos;;</span><br><span class="line">let y = &apos;global&apos;;</span><br><span class="line">console.log(this.x);  // &apos;global&apos; </span><br><span class="line">console.log(this.y);  // &apos;global&apos;</span><br></pre></td></tr></table></figure>
+
+<p>##3. const定义常量<br>const用于声明一个或多个常量，声明时必须进行初始化，且初始化后值不可再修改：</p>
+<p>const name1 = value1 [, name2 = value2 [, … [, nameN = valueN]]];<br>const定义常量与使用let定义变量十分相似：</p>
+<p>二者都是块级作用域<br>都不能和它所在作用域内的其他变量或函数拥有相同的名称<br>两者还有以下两点区别：</p>
+<p>const声明的常量必须初始化，而let声明的变量不用<br>常量的值不能通过再赋值改变，也不能再次声明。而变量值可以修改</p>
+
       
     </div>
     
@@ -408,6 +472,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/var、let、const与JavaScript变量-常量的定义/" rel="tag"># var、let、const与JavaScript变量/常量的定义</a>
+          
+        </div>
+      
 
       
       
@@ -417,8 +487,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/05/31/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2019/06/06/pc全局样式/" rel="next" title="pc全局样式">
+                <i class="fa fa-chevron-left"></i> pc全局样式
               </a>
             
           </div>
@@ -494,8 +564,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -512,14 +591,32 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
@@ -550,6 +647,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#var定义变量"><span class="nav-number">1.</span> <span class="nav-text">var定义变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-let定义块级变量"><span class="nav-number">2.</span> <span class="nav-text">2. let定义块级变量</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -563,7 +676,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019-06</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019-07</span>
   <span class="with-love">
     <i class="fa fa-star"></i>
   </span>
@@ -586,7 +699,7 @@
 </script>
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共73字</span>
+  <span class="post-count">博客全站共2.8k字</span>
 </div>
 <div>
 </div>
@@ -725,9 +838,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://yuanxianfeng1995.github.io/blog/2019/05/31/1/';
-          this.page.identifier = '2019/05/31/1/';
-          this.page.title = 'about';
+          this.page.url = 'http://yuanxianfeng1995.github.io/blog/2019/07/03/var、let/';
+          this.page.identifier = '2019/07/03/var、let/';
+          this.page.title = 'var、let、const与JavaScript变量/常量的定义';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://.disqus.com/embed.js';
